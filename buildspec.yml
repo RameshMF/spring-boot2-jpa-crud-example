@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - mvn clean install
+artifacts:
+  files:
+    - './target/**/*.jar'
+  discard-paths: yes
